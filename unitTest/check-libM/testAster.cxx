@@ -55,7 +55,7 @@ struct areaCorrected{
       return a1;
     }else{
       REALTYPE x=a2/a1;
-      return a1*(x-1) / (std::log(x));
+      return a1*((x-1) / (std::log(x)));
     }
   }
 };
